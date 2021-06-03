@@ -1,0 +1,1 @@
+spark-shell --executor-cores 4 --jars %1\commons-io-2.0.jar,%1\graphswat.jar --driver-library-path %1 -i %1\driver.scale --conf spark.driver.args="%2 %3"
